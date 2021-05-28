@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.amfero.blmclient.mixin.mixins",
+  "refmap": "mixins.blmclient.refmap.json",
+  "mixins": [
+    "MinecraftMixin",
+    "IEntityRenderer",
+    "MixinCPacketPlayer",
+    "MixinGuiMultiplayer",
+    "MixinGuiPlayerTabOverlay",
+    "MixinGuiIngameForge",
+    "MixinRenderPlayer",
+  	"NetworkManagerMixin",
+    "RenderManagerMixin",
+    "MixinCPacketUseEntity"
+  ],
+  "client": [
+  	"EntityPlayerSPMixin"
+  ]
+}
